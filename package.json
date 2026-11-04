@@ -1,0 +1,10 @@
+{
+	"name": "cmd-auto-compact",
+	"version": "1.0.0",
+	"description": "Threshold-based automatic context compaction for Command Code sessions.",
+	"keywords": ["cmd-mod", "cmd-mod-hook", "cmd-mod-command", "compact", "context", "tokens"],
+	"license": "MIT",
+	"commandcode": {
+		"mods": ["./index.ts"]
+	}
+}
