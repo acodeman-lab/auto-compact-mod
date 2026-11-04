@@ -51,27 +51,6 @@ Settings changed with `/auto-compact` persist across sessions in the mod store a
 - Safe no-op when no session is bound or session controls are unavailable.
 - `--mod-option auto-compact-debug=true` records every measurement and attempt in the session log (custom entry `auto-compact/event`) and in the mod store.
 
-## Share it with the community
-
-The package already carries the `cmd-mod` keyword and the `commandcode.mods` entry point.
-
-1. Publish it: `npm publish` (rename to an available npm name first, for example a scoped `@yourname/cmd-auto-compact`).
-2. Open a PR against `mods/registry.json` in `CommandCodeAI/command-code`:
-
-```json
-{
-	"name": "auto-compact",
-	"source": "cmd-auto-compact",
-	"npm": "cmd-auto-compact",
-	"description": "Compacts a Command Code session when it reaches a token threshold you choose.",
-	"author": {"name": "Vignesh", "github": "acodeman-lab"},
-	"kinds": ["hook", "command", "flag"],
-	"tags": ["context", "tokens", "compaction", "cost"]
-}
-```
-
-Once merged, it appears on https://commandcode.ai/mods within about 15 minutes.
-
 ## License
 
-MIT
+Apache 2.0

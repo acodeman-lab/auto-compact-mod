@@ -1,9 +1,11 @@
 {
 	"name": "cmd-auto-compact",
-	"version": "1.0.0",
+	"version": "0.0.2",
 	"description": "Threshold-based automatic context compaction for Command Code sessions.",
 	"keywords": ["cmd-mod", "cmd-mod-hook", "cmd-mod-command", "compact", "context", "tokens"],
-	"license": "MIT",
+	"license": "Apache-2.0",
+	"repository": {"url": "https://github.com/acodeman-lab/auto-compact-mod"},
+	"author": {"name": "Vignesh", "github": "acodeman-lab"},
 	"commandcode": {
 		"mods": ["./index.ts"]
 	}
