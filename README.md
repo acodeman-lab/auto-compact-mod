@@ -74,4 +74,4 @@ Once merged, it appears on https://commandcode.ai/mods within about 15 minutes.
 
 ## License
 
-MIT
+Apache 2.0
