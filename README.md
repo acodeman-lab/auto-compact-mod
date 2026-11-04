@@ -64,7 +64,7 @@ The package already carries the `cmd-mod` keyword and the `commandcode.mods` ent
 	"source": "cmd-auto-compact",
 	"npm": "cmd-auto-compact",
 	"description": "Compacts a Command Code session when it reaches a token threshold you choose.",
-	"author": {"name": "Your Name", "github": "your-handle"},
+	"author": {"name": "Vignesh", "github": "acodeman-lab"},
 	"kinds": ["hook", "command", "flag"],
 	"tags": ["context", "tokens", "compaction", "cost"]
 }
