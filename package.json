@@ -1,12 +1,43 @@
 {
 	"name": "cmd-auto-compact",
-	"version": "0.0.2",
-	"description": "Threshold-based automatic context compaction for Command Code sessions.",
-	"keywords": ["cmd-mod", "cmd-mod-hook", "cmd-mod-command", "compact", "context", "tokens"],
+	"version": "0.1.0",
+	"description": "Usage-first precision compaction for Command Code: free exact-fact memory, recall, and an optional paid semantic handoff.",
+	"keywords": [
+		"cmd-mod",
+		"cmd-mod-hook",
+		"cmd-mod-command",
+		"cmd-mod-tool",
+		"cmd-mod-flag",
+		"compact",
+		"context",
+		"tokens",
+		"precision",
+		"recall",
+		"usage"
+	],
 	"license": "Apache-2.0",
-	"repository": {"url": "https://github.com/acodeman-lab/auto-compact-mod"},
-	"author": {"name": "Vignesh", "github": "acodeman-lab"},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/acodeman-lab/auto-compact-mod"
+	},
+	"author": {
+		"name": "Vignesh",
+		"github": "acodeman-lab"
+	},
+	"files": [
+		"index.ts",
+		"README.md",
+		"test"
+	],
+	"scripts": {
+		"test": "tsx --test test/*.test.ts"
+	},
+	"devDependencies": {
+		"tsx": "^4.21.0"
+	},
 	"commandcode": {
-		"mods": ["./index.ts"]
+		"mods": [
+			"./index.ts"
+		]
 	}
 }
